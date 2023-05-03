@@ -1,0 +1,164 @@
+@font-face { 
+    font-family: "LeagueSpartan";
+    src: url("../Fonts/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: "Quicksand";
+    src: url("../Fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: "Quicksand", Verdana, sans-serif;
+    color: #fff;
+    background-color: #26293D;
+    overflow: hidden;
+}
+
+header {
+    background-color: #1C1E2D;
+    width: 100%;
+    height: 95px;
+}
+
+.logo img {
+    height: auto;
+    width: 259px;
+}
+
+.site_header {
+    background-color: #1C1E2D;
+    height: 185px;
+}
+
+.hamburger-icon, .logo {
+    display: inline-flex;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+nav, #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+nav li {
+    display: block;
+}
+
+nav a {
+    display: block;
+    padding-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1C1E2D;
+    width: 145px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "LeagueSpartan", Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-large {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1D4774;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-large:hover {
+    text-decoration: underline;
+}
+
+/* Tablet-size */
+
+@media (min-width: 600px) {
+    header {
+        width: 100%;
+        height: 160px;
+    }
+
+    nav { 
+        display: inline-block;  
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .site-header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 400px;
+        height: auto;
+    }
+
+    nav a {
+        background-color: transparent;
+        width: 100%;
+        line-height: 0px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .btn-large {
+        font-size: 25px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1050px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        margin-top: -20px;
+    }
+
+    .btn-large {
+        font-size: 30px;
+    }
+}

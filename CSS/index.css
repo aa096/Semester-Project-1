@@ -1,0 +1,59 @@
+
+.welcome {
+    background: url("../images/main.jpg") center bottom no-repeat;
+    background-size: cover;
+    min-height: 292px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.btn-large {
+    margin-left: 10%;
+}
+
+.main-img {
+    position: absolute;
+    left: 45%;
+    transform: translateX(-5%);
+    min-width: 210px;
+}
+
+.main-img p { 
+    font-size: 20px;
+    margin-top: -1rem;
+}
+
+
+@media (min-width: 600px) {
+    .welcome {
+        min-height: 60vh;
+    }
+
+    .main-img {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-5%);
+    }
+
+    .main-img p { 
+        margin-top: -3rem;
+        font-size: 30px;
+    }
+
+    .btn-large {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 1081px) {
+    .welcome {
+        min-height: 80vh;
+    }
+
+    .main-img p { 
+        font-size: 40px;
+    }
+}
