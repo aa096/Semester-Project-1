@@ -12,7 +12,6 @@ body {
     font-family: "Quicksand", Verdana, sans-serif;
     color: #fff;
     background-color: #26293D;
-    overflow: hidden;
 }
 
 header {
@@ -50,11 +49,16 @@ nav, #menu-checkbox {
 
 #menu-checkbox:checked ~ nav {
     display: block;
+    position: absolute;
+    z-index: 1;
+    margin-left: -50px;
+    margin-top: -5px;
 }
 
 nav li {
     display: block;
 }
+
 
 nav a {
     display: block;
@@ -68,14 +72,15 @@ nav a {
     font-size: 20px;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
     font-family: "LeagueSpartan", Verdana, sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
-.btn-large {
+.btn-large, .btn-small {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
@@ -85,7 +90,7 @@ h1 {
     font-weight: 400;
 }
 
-.btn-large:hover {
+.btn-large:hover, .btn-small:hover {
     text-decoration: underline;
 }
 
@@ -134,7 +139,8 @@ h1 {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
+        text-align: left;
     }
 
     .btn-large {
@@ -147,6 +153,10 @@ h1 {
 @media (min-width: 1050px) {
     h1 {
         font-size: 60px;
+    }
+
+    h2, h3 {
+        font-size: 50px;
     }
 
     .site-header {
