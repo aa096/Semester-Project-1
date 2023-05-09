@@ -73,6 +73,10 @@ nav a {
     font-size: 20px;
 }
 
+p {
+    font-size: 20px;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: "LeagueSpartan", Verdana, sans-serif;
     text-transform: uppercase;
