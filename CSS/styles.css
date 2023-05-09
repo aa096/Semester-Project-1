@@ -12,6 +12,7 @@ body {
     font-family: "Quicksand", Verdana, sans-serif;
     color: #fff;
     background-color: #26293D;
+    overflow-x: hidden;
 }
 
 header {
@@ -94,6 +95,88 @@ h1, h2, h3, h4, h5 {
     text-decoration: underline;
 }
 
+footer {
+    background-color: #1C1E2D;
+}
+
+h6 {
+    font-family: "LeagueSpartan", Verdana, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+}
+
+.foot-a {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.foot-a:hover {
+    text-decoration: underline;
+}
+
+.touch { 
+    text-align: center;
+    order: 5;
+}
+
+.touch img {
+ margin: 5px 10px 5px 20px;
+}
+
+.logo-foot {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hours {
+    order: 1;
+}
+
+.location {
+    order: 2;
+}
+
+.about {
+    order: 3;
+}
+
+.admission {
+    order: 4;
+}
+
+.logo-foot {
+    order: 6;
+}
+
+.copyright {
+ text-align: center;
+ padding-top: 25px;
+ padding-bottom: 20px;
+}
+
 /* Tablet-size */
 
 @media (min-width: 600px) {
@@ -145,6 +228,38 @@ h1, h2, h3, h4, h5 {
 
     .btn-large {
         font-size: 25px;
+    } 
+}
+
+@media (min-width: 800px) {
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .hours {
+        order: 1;
+    }
+
+    .location {
+        order: 2;
+    }
+
+    .about {
+        order: 3;
+    }
+
+    .admission {
+        order: 4;
+    }
+
+    .logo-foot {
+        order: 6;
+    }
+
+    .touch {
+        order: 5;
     }
 }
 
@@ -170,5 +285,35 @@ h1, h2, h3, h4, h5 {
 
     .btn-large {
         font-size: 30px;
+    }
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .hours {
+        order: 1;
+    }
+
+    .location {
+        order: 2;
+    }
+
+    .about {
+        order: 3;
+    }
+
+    .admission {
+        order: 4;
+    }
+
+    .logo-foot {
+        order: 5;
+    }
+
+    .touch {
+        order: 6;
     }
 }
