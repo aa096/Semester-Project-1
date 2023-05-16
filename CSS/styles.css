@@ -31,13 +31,16 @@ header {
     height: 185px;
 }
 
-.hamburger-icon, .logo {
-    display: inline-flex;
+.hamburger-icon {
+    display: flex;
+    justify-content: left;
+    padding-top: 30px;
 }
 
 .logo {
-    padding-top: 10px;
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
 }
 
 .active {
@@ -195,6 +198,10 @@ footer p {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+
+    .logo {
+        margin-top: 0px;
     }
 
     .logo img {

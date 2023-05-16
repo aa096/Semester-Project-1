@@ -1,0 +1,177 @@
+h1 {
+    font-size: 45px;
+}
+
+h2, h3 {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    margin-top: 100px;
+}
+
+.p-ad {
+    text-align: center;
+    font-size: 25px;
+    line-height: 7px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0 70px 0;
+}
+
+map img {
+    max-width: 100%;
+}
+
+.top img {
+    max-width: 100%;
+}
+
+.address {
+    display: block;
+}
+
+table {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+td {
+    padding-right: 2rem;
+}
+
+.dropdown {
+    position: relative;
+}
+
+#drop-checkbox, #drop-checkbox2, #drop-checkbox3 {
+    display: none;
+}
+
+h4, h5 {
+    font-size: 35px;
+    margin: 40px 40px 0;
+    text-align: left;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+label::before {
+    content: "+";
+    position: absolute;
+    margin-left: -50px;
+}
+
+#drop-checkbox:checked ~ h4 label::before {
+    content: "-";
+    margin-left: -46px;
+    margin-top: -4px;   
+}
+
+#drop-checkbox2:checked ~ h5 label::before {
+    content: "-";
+    margin-left: -46px;
+    margin-top: -4px;
+}
+
+#drop-checkbox3:checked ~ h5 label::before {
+    content: "-";
+    margin-left: -46px;
+    margin-top: -4px;
+}
+
+.drop-p {
+    font-size: 25px;
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+    transition: max-height 0.4s ease;
+}
+
+#drop-checkbox:checked ~ h4 ~ .drop-p {
+    max-height: 200px;
+}
+
+#drop-checkbox2:checked ~ h5 ~ .drop-p {
+    max-height: 200px;
+}
+
+#drop-checkbox3:checked ~ h5 ~ .drop-p {
+    max-height: 200px;
+}
+
+hr {
+    border: 1px solid #fff;
+    width: 1250px;
+}
+
+.footer-menu {
+    margin-top: 50px;
+}
+
+@media (min-width:1025px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2, h3 {
+        margin-top: 130px;
+    }
+}
+
+@media (min-width:1300px) {
+    h4, h5 {
+        font-size: 45px;
+        margin: 40px 60px 0;
+    }
+
+    hr {
+        margin-left: 20px;
+        width: 1250px;
+    }
+
+    .drop-p {
+        font-size: 25px;
+        padding-left: 90px;
+        width: 1000px;
+    }
+}
+
+@media (min-width:1400px) {
+    h4, h5 {
+        margin: 40px 80px 0;
+    }
+
+    hr {
+        margin-left: 65px;
+        width: 1250px;
+    }
+}
+
+@media (min-width:1440px) {
+    h4, h5 {
+        margin: 40px 110px 0;
+    }
+
+    hr {
+        margin-left: 85px;
+        width: 1250px;
+    }
+}
