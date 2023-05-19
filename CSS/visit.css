@@ -28,14 +28,14 @@ h3 {
 }
 
 .image {
-    margin: 0 35px;
+    margin: 0 20px;
 }
 
 .map {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 70px 0 70px 0;
+    margin: 70px 5px 70px 5px;
 }
 
 .map img {
@@ -153,6 +153,10 @@ hr {
 
     .top img {
         max-width: 100%;
+    }
+
+    .map {
+        margin: 70px 0 70px 0;
     }
 }
 
