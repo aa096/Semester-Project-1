@@ -13,7 +13,7 @@ h3 {
 
 .p-ad {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 7px;
 }
 
@@ -21,6 +21,14 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.top img {
+    max-width: 100%;
+}
+
+.image {
+    margin: 0 35px;
 }
 
 .map {
@@ -34,17 +42,13 @@ map img {
     max-width: 100%;
 }
 
-.top img {
-    max-width: 100%;
-}
-
 .address {
     display: block;
 }
 
 table {
     margin-left: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 td {
@@ -60,12 +64,12 @@ td {
 }
 
 h4, h5 {
-    font-size: 35px;
+    font-size: 30px;
     margin: 40px 40px 0;
     text-align: left;
 }
 
-label {
+.label-drop {
     cursor: pointer;
     position: relative;
     display: block;
@@ -133,6 +137,22 @@ hr {
 
     h2, h3 {
         margin-top: 130px;
+    }
+
+    table {
+        font-size: 25px;
+    }
+
+    .p-ad {
+        font-size: 25px;
+    }
+
+    .image {
+        margin: 0 0px;
+    }
+
+    .top img {
+        max-width: 100%;
     }
 }
 

@@ -1,0 +1,60 @@
+.about-museum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1C1E2D;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about-museum img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.bigger-p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 40px;
+}
+
+h3, h4, h5 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.involved {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.support, .volunteer, .intern {
+    background-color: #1C1E2D;
+    margin: 0 20px 30px;
+    padding: 0 20px 20px;
+}
+
+@media (min-width: 666px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
