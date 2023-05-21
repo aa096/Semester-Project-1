@@ -29,6 +29,7 @@ header {
 .site_header {
     background-color: #1C1E2D;
     height: 185px;
+    max-width: 100%;
 }
 
 .hamburger-icon {
@@ -253,11 +254,18 @@ footer p {
 @media (min-width: 1050px) { 
     .site-header {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
     }
 
     .logo img {
         margin-top: -20px;
+    }
+
+    nav a {
+        padding-left: 0;
+        padding-left: 30px;
     }
 
     .btn-large {
