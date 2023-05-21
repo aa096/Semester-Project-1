@@ -92,30 +92,40 @@ h2, h3, h4, h5 {
 
 @media (min-width: 1100px) { 
     .right, .right2 {
-        margin-left: 200px;
+        margin-left: 20%;
     }
     
     .left, .left2 {
-        margin-right: 200px;
+        margin-right: 20%;
     }
 }
 
 @media (min-width: 1300px) { 
     .right, .right2 {
-        margin-left: 400px;
+        margin-left: 30%;
     }
     
     .left, .left2 {
-        margin-right: 400px;
+        margin-right: 30%;
     }
 }
 
 @media (min-width: 1400px) { 
     .right, .right2 {
-        margin-left: 450px;
+        margin-left: 35%;
     }
     
     .left, .left2 {
-        margin-right: 450px;
+        margin-right: 35%;
+    }
+}
+
+@media (min-width: 1600px) { 
+    .right, .right2 {
+        margin-left: 40%;
+    }
+    
+    .left, .left2 {
+        margin-right: 40%;
     }
 }

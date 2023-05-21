@@ -257,7 +257,7 @@ footer p {
     .site-header {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         max-width: 100%;
     }
 

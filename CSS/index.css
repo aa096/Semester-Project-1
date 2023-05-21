@@ -207,7 +207,9 @@ h2, p {
     .left {
         display: flex;
         flex-flow: row wrap;
+        justify-content: left;
         align-items: center;
+        margin-right: 30%;
         background-color: #1C1E2D;
         padding: 25px;
     }
@@ -217,7 +219,9 @@ h2, p {
         margin-top: 40px;
         display: flex;
         flex-flow: row-reverse wrap;
+        justify-content: right;
         align-items: center;
+        margin-left: 30%;
         background-color: #1C1E2D;
         padding: 25px;
         margin-bottom: 30px;
@@ -228,14 +232,23 @@ h2, p {
     .left {
         justify-content: left;
         align-items: center;
-        width: 850px;
+        margin-right: 36%;
     }
     
     .right {
         justify-content: right;
         align-items: center;
-        width: 850px;
         margin-left: 36%;
         margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1550px) {
+    .left {
+        margin-right: 46%;
+    }
+    
+    .right {
+        margin-left: 46%;
     }
 }
