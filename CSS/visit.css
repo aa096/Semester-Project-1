@@ -21,6 +21,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 30px 0 30px 0;
 }
 
 .top img {
@@ -35,7 +36,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 70px 5px 70px 5px;
+    margin: 0px 5px 70px 5px;
 }
 
 .map img {
@@ -156,7 +157,7 @@ hr {
     }
 
     .map {
-        margin: 70px 0 70px 0;
+        margin: 20px 0 70px 0;
     }
 }
 
@@ -180,7 +181,6 @@ hr {
     hr {
         width: 1250px;
     }
-
 }
 
 @media (min-width:1400px) {

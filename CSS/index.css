@@ -16,7 +16,7 @@
     background-color: #1D4774;
     padding: 10px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .btn-large:hover, .btn-small:hover {
@@ -63,7 +63,7 @@
     background-color: #1C1E2D;
 }
 
-  h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
     font-size: 30px;
 }
 
@@ -81,7 +81,6 @@ h2, p {
 
 .spaces img {
     max-width: 400px;
-    max-height: auto;
 }
 
 .space-square {
@@ -106,7 +105,6 @@ h2, p {
 
 .left img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 .left p {
@@ -125,7 +123,6 @@ h2, p {
 
 .right img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 .right p {
