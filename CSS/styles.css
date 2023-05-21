@@ -1,11 +1,13 @@
 @font-face { 
     font-family: "LeagueSpartan";
     src: url("../Fonts/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face { 
     font-family: "Quicksand";
     src: url("../Fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
 }
 
 body {
