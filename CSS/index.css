@@ -35,12 +35,6 @@
     min-width: 210px;
 }
 
-.main-img p { 
-    font-size: 20px;
-    margin-top: -1rem;
-    text-align: center;
-}
-
 .events {
     display: flex;
     flex-direction: column;
@@ -49,9 +43,11 @@
 }
 
 .subhead {
+    font-family: "Quicksand", Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 23px;
+    text-transform: none;
 }
 
 .happening {
@@ -69,6 +65,16 @@ h1, h2, h3, h4, h5 {
 
 h2, p {
     margin: 15px;
+}
+
+.formerp {
+    font-family: "Quicksand", Verdana, sans-serif;
+    color: #fff;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -1rem;
+    text-align: center;
 }
 
 .spaces {
@@ -142,7 +148,7 @@ h2, p {
         transform: translateX(-5%);
     }
 
-    .main-img p { 
+    .formerp { 
         margin-top: -3rem;
         font-size: 30px;
         text-align: left;
@@ -164,7 +170,7 @@ h2, p {
         min-height: 80vh;
     }
 
-    .main-img p { 
+    .formerp { 
         font-size: 40px;
     }
 
